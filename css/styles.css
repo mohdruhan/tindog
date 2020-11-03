@@ -1,0 +1,164 @@
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/*navigation*/
+.navbar {
+  text-align: left;
+  padding: 0 0 2rem;
+}
+
+.brand {
+  width: 12%;
+  border-radius: 100%;
+}
+
+.navbar-brand {
+  padding-left: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+/*title*/
+#title .container-fluid {
+  padding: 3% 10% 10%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.btn-title {
+  margin: 5% 3% 0 0;
+}
+
+/*features*/
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.pr {
+  color: #8f8f8f;
+  width: 50%;
+  margin: auto;
+}
+
+.fas {
+  color: #ef8172;
+  font-size: 7rem;
+  padding: 3%;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/*testimonial*/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  padding: 2% 1%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.logo {
+  width: 18%;
+  margin: 2rem 1.2rem;
+}
+
+/*pricing*/
+.pricing-col {
+  margin: 5%;
+}
+
+.card-header {
+  background-color: #ef8172;
+}
+
+.card-body {
+  background-color: #fcdada;
+}
+
+.b-card {
+  margin-top: 3.6rem;
+}
+
+.price-heading {
+  font-size: 2rem;
+}
+
+/*cta*/
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  font-size: 2rem;
+}
+
+/*footer*/
+#footer {
+  background-color: #ffff;
+}
+
+.links {
+  padding: 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .image {
+    position: static;
+    transform: rotate(5deg);
+    text-align: center;
+    padding-top: 5%;
+  }
+}
